@@ -4,6 +4,7 @@
     padding: 0;
 }
 
+
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
@@ -26,6 +27,44 @@ body {
     font-family: 'Anton', sans-serif;
 }
 
+.plan{
+    background-color: rgb(143, 226, 143);
+    text-align: center;
+    width: 30%;
+    margin: 8px;
+    padding:20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.plan--helight{
+    background: rgb(13, 238, 13);
+    box-shadow: 2px 2px 2px 2px rgb(24, 24, 24);
+    color:white;
+}
+
+.plan__antintion{
+    background-color: white;
+    box-shadow: 2px 2px  2px rgb(24, 24, 24);
+    color: rgb(13, 238, 13);
+    border-radius: 8px;
+
+}
+
+.plan__list{
+    list-style-type: none;
+    padding: 0; 
+    margin: 0;
+}
+.plan__feature{
+    margin: 8px 0;
+}
+.plan--helight .plan__Price{
+    color:rgb(3, 83, 3)
+}
+.plan__Price{
+  color:gray
+}
 .main-header {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.849);
@@ -34,6 +73,7 @@ body {
 
 .selection-title {
     color:#ff1b68;
+    text-align: center;
 }
 
 .main-nav__item {
