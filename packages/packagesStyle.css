@@ -50,3 +50,12 @@
  .pakages-plan-premium a h2{
     color:rgb(197, 193, 193);
  }
+
+.clearfix{
+    clear:both;
+}
+
+ .float-to-right{
+    float: right;
+    text-align: right;
+ }
