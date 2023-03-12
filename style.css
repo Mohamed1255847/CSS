@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+   
 }
 
 
@@ -26,7 +25,9 @@ body {
     font-weight: bold;
     font-family: 'Anton', sans-serif;
 }
-
+.plan-continer{
+    margin: auto;
+}
 .plan{
     background-color: rgb(143, 226, 143);
     text-align: center;
@@ -34,7 +35,7 @@ body {
     margin: 8px;
     padding:20px;
     display: inline-block;
-    vertical-align: middle;
+    
 }
 
 .plan--helight{
@@ -177,4 +178,26 @@ body {
 }
 .footer__avtarList{
     margin-top: 20px;
+}
+
+.bottom-footer{
+background-color: black;
+padding:8px 16px;
+text-align: center;
+margin-top: 30px;
+}
+
+.bottom-footer-list{
+   list-style: none;
+}
+
+.bottom-footer-list-elemnt{
+  display: inline-block;
+  font-weight: bold;
+  margin: 0 12px;
+}
+.bottom-footer-list-elemnt a {
+    text-decoration: none;
+    color: white;
+
 }
