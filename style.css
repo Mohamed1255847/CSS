@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-   
+
 }
 
 
@@ -11,7 +11,7 @@ body {
 
 #product-overview {
     background: url("freedom.jpg");
-    background-position:center;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 15px;
@@ -25,179 +25,101 @@ body {
     font-weight: bold;
     font-family: 'Anton', sans-serif;
 }
-.plan-continer{
+
+.plan-continer {
     margin: auto;
 }
-.plan{
+
+.plan {
     background-color: rgb(143, 226, 143);
     text-align: center;
     width: 30%;
     margin: 8px;
-    padding:20px;
+    padding: 20px;
     display: inline-block;
-    
+
 }
 
-.plan--helight{
-    background: rgb(13, 238, 13);
+.plan--helight {
+    background: #0dee0d;
     box-shadow: 2px 2px 2px 2px rgb(24, 24, 24);
-    color:white;
+    color: white;
 }
 
-.plan__antintion{
+.plan__antintion {
     background-color: white;
-    box-shadow: 2px 2px  2px rgb(24, 24, 24);
-    color: rgb(13, 238, 13);
+    box-shadow: 2px 2px 2px rgb(24, 24, 24);
+    color: #0dee0d;
     border-radius: 8px;
 }
 
-.plan__list{
+.plan__list {
     list-style-type: none;
-    padding: 0; 
+    padding: 0;
     margin: 0;
 }
-.plan__feature{
+
+.plan__feature {
     margin: 8px 0;
 }
-.plan--helight .plan__Price{
-    color:#035303
+
+.plan--helight .plan__Price {
+    color: #035303
 }
-.plan__Price{
-  color:#808080
+
+.plan__Price {
+    color: #808080
 }
-.plan__button{
-    background-color:#035303 ;
-    color:white;
-    border:1.5 soild #035303;
-    padding:8px;
+
+.plan__button {
+    background-color: #035303;
+    color: white;
+    border: 1.5 soild #035303;
+    padding: 8px;
     border-radius: 8px;
     font-weight: bold;
     cursor: pointer;
 }
 
-.plan__button:hover{
-    background-color:white;
-    color:#035303 ;
+.plan__button:hover {
+    background-color: white;
+    color: #035303;
 }
 
-.plan__button:focus{
+.plan__button:focus {
     outline: none;
 }
-.main-header {
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.849);
-    padding: 8px 6px;
-}
 
-.selection-title {
-    color:#ff1b68;
-    text-align: center;
-}
 
-.main-nav__item {
-    display: inline-block;
-    margin: 0 16px;
-}
-
-.main-header>div {
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.main-nav {
-    display: inline-block;
-    text-align: right;
-    width: calc(100% - 73px);
-    vertical-align: middle;
-}
-
-.main-header__brand {
-    text-decoration: none;
-    color:white;
-    font-weight: bold;
-    font-size: 22px;
-}
-
-.main-nav__items {
-    list-style: none;
-}
-
-.main-nav__item a {
-    text-decoration: none;
-    color: white;
-    padding: 3px 0;
-    font-weight: bold;
-}
-
-.main-nav__item a:hover,
-.main-nav__item a:active {
-    color: white;
-    border-bottom: 5px solid white;
-}
-
-.main-nav__item--cta a {
+.footer {
     background-color: #ff1b68;
-    border-radius: 10px;
-    color:white;
-    padding:8px 16px;
-}
-
-.main-nav__item--cta a:hover,
-.main-nav__item--cta a:active {
-    border:none;
-    color:#ff1b68;
-    background-color: white;
-}
-
-.footer{
-    background-color: #ff1b68;
-    color:white;
+    color: white;
     text-align: center;
-    padding:40px;
+    padding: 40px;
     margin-top: 30px;
-    
+
 }
-.footer__listfeature{
+
+.footer__listfeature {
     display: inline-block;
-    margin:10px 20px;
+    margin: 10px 20px;
     vertical-align: middle;
 
 }
 
-.footer__avtar{
+.footer__avtar {
     background-color: #e295af;
-    width:100px;
+    width: 100px;
     height: 100px;
     border-radius: 50%;
     margin: 0 auto;
 }
 
-.footer__listfeature__prgraph{
+.footer__listfeature__prgraph {
     margin: 10px 0;
     font-weight: bold;
 }
-.footer__avtarList{
+
+.footer__avtarList {
     margin-top: 20px;
-}
-
-.bottom-footer{
-background-color: black;
-padding:8px 16px;
-text-align: center;
-margin-top: 30px;
-}
-
-.bottom-footer-list{
-   list-style: none;
-}
-
-.bottom-footer-list-elemnt{
-  display: inline-block;
-  font-weight: bold;
-  margin: 0 12px;
-}
-.bottom-footer-list-elemnt a {
-    text-decoration: none;
-    color: white;
-
 }
